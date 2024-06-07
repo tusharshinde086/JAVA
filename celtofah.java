@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Program {
-    //your code goes here
+public class celtofah {
+    //Celsius to Fahrenheit
     
     static double fahr(double ce) {
            double a= 1.8 * ce + 32;
