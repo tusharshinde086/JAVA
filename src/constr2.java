@@ -1,15 +1,25 @@
-public class constr2 {
+public class Constr2 {
     int id;
-    string name ;
+    String name;
 
-    public void display(){
-        System.out.println( id + ""+ name);
-        }
-     public static void main(String[] args) {
-        constr2 s1 = new constr2();
-        constr2 s2 = new constr2();   // creating a object
+    // Constructor to initialize id and name
+    public Constr2(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
-        s1.display();  
+    // Method to display id and name
+    public void display() {
+        System.out.println(id + " " + name);
+    }
+
+    public static void main(String[] args) {
+        // Creating objects with id and name
+        Constr2 s1 = new Constr2(1, "Alice");
+        Constr2 s2 = new Constr2(2, "Bob");
+
+        // Displaying the objects' data
+        s1.display();
         s2.display();
     }
 }
