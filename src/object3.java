@@ -1,6 +1,6 @@
 public class object3 {
     int x = 20 ; 
-    static int y = 30;
+    
     public static void main(String[] args) {
         object1 t = new object1();
         object1 s = new object1();
